@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".home">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/canteen1"
+            android:scaleType="fitXY"
+            />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="Canteens"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:background="@color/white"
+           android:textColor="@color/black"
+           android:layout_marginTop="40dp"
+           android:layout_marginBottom="10dp"
+           android:padding="4dp"
+           />
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:columnCount="2"
+           >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/olympia"
+                   android:layout_gravity="center"
+                   android:id="@+id/olympiaImg"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:id="@+id/olympiaText"
+                   android:text="Olympia"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/bikrampur"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Bikrampur"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/khan"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Khan Kitchen"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/nescafe"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Coffee Shop"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+       </GridLayout>
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="Food Items"
+           android:textSize="30sp"
+           android:textStyle="bold"
+           android:background="@color/white"
+           android:textColor="@color/black"
+           android:layout_marginTop="40dp"
+           android:layout_marginBottom="10dp"
+           android:padding="4dp"
+           />
+
+       <GridLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:columnCount="2"
+           >
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/khichuri"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Bengali"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/kacchi"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Mughal"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/coffee"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Tea and Coffee"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical"
+               android:layout_columnWeight="1"
+               android:layout_gravity="fill"
+
+               >
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/fastfood"
+                   android:layout_gravity="center"
+                   />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:text="Fast Food"
+                   android:textColor="@color/white"
+                   android:textSize="18sp"
+                   android:layout_marginTop="5dp"
+                   />
+
+           </LinearLayout>
+
+       </GridLayout>
+
+   </LinearLayout>
+
+</ScrollView>

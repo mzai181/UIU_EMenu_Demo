@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbg"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#30ffffff"
+        android:padding="11dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Official Gmail"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#30ffffff"
+        android:padding="11dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Phone Number"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#30ffffff"
+        android:padding="11dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Student or Teacher "
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="#30ffffff"
+        android:padding="11dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerbtn"
+        android:backgroundTint="#2196F3"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:text="Register"
+        android:textColor="@color/white"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Already Registered?"
+            android:layout_marginRight="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_to_signIn"
+            android:textColor="#FFEB3B"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textSize="18dp"
+            android:textStyle="italic"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

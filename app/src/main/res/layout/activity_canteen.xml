@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Canteen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:background="#FFEB3B"
+           android:padding="10dp"
+
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Olympia Palace"
+               android:textSize="30sp"
+               android:layout_marginTop="10dp"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textColor="#1A1C18"
+               />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="*Open Now"
+               android:textColor="#1616D3"
+               android:textSize="20sp"
+               android:layout_marginTop="2dp"
+               android:gravity="center"
+               />
+       </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Menu"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1A1C18"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/khichuri"
+                android:layout_margin="12dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="12dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Khichuri"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 75 BDT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/orderBtn"
+                    android:text="Order Now"
+                    android:backgroundTint="@color/black"
+                    android:padding="5sp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/kacchi"
+                android:layout_margin="12dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="12dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mutton Kacchi"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 120 BDT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Now"
+                    android:backgroundTint="@color/black"
+                    android:padding="5sp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/paratha"
+                android:layout_margin="12dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="12dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paratha, Dal"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 30 BDT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Now"
+                    android:backgroundTint="@color/black"
+                    android:padding="5sp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#009688"
+            >
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:src="@drawable/coffee"
+                android:layout_margin="12dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="12dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Price: 40 BDT"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+
+                    />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Now"
+                    android:backgroundTint="@color/black"
+                    android:padding="5sp"
+                    android:textSize="15sp"
+                    android:layout_marginTop="8dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
